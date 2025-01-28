@@ -1,7 +1,9 @@
+import { CardList } from "../components/CardList";
+
 export function MovieList() {
     return(
         <>
-            <h1>MovieList</h1>
+            <CardList />
         </>
     );
 }
